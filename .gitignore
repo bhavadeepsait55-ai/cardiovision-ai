@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Local ECG recordings, generated samples, and reports can contain health data.
+*.edf
+*.edf+
+*.csv
+*.txt
+*.pdf
+!backend/requirements.txt
+
+# Local development output
+coverage/
+.coverage
+*.log
